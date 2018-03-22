@@ -8,7 +8,7 @@ int main(){
     for (int64_t i = 2;i*i <= num;i++){
         if(num % i) continue;
         flag = i;
-        while(num % i == 0 )
+        while(num % i == 0 ) // 回文数
             num /= i;
     }
 
