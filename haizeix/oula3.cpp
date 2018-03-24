@@ -1,7 +1,6 @@
 #include "iostream"
 #include "cstdio"
 #include "cinttypes"
-
 using namespace std;
 int64_t num = 600851475143,flag;
 int main(){
