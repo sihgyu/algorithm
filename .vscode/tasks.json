@@ -7,9 +7,7 @@
             "label": "hello world",
             "type": "shell",
             "command": "g++"
-            "args" :[
-                "main.cpp"
-            ],
+            
             "group": {
                 "kind": "build",
                 "isDefault": true
