@@ -1,0 +1,14 @@
+1.private可以阻止别人直接访问某个构造方法
+    class Sundae {
+        private Sundae() {}
+        static Sundae makeASundae() {
+        return new Sundae();
+        }
+    }
+
+    public class IceCream {
+    public static void main(String[] args) {
+        //! Sundae x = new Sundae();
+        Sundae x = Sundae.makeASundae();
+    }
+    } ///:~

@@ -29,7 +29,7 @@ int main(){
                 break;
             }
         }
-
+    
         if(flag == 0){
             printf("OK\n");
         }

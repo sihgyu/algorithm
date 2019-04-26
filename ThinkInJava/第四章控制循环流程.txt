@@ -1,0 +1,8 @@
+迭代
+while、do-while、for来控制循环，称为迭代语句。
+
+foreach
+foreach是for循环的一种。例如： for(int x : a){ //TODO }等价于for(int i = 0;i < 20;i++){ x = a[i] //TODO }
+在a是数组的情况下，代表遍历整个数组a，每一次得到的数值都赋给值x，并参与运算。然后再重复for循环。
+
+更新：https://blog.csdn.net/qq_37866486/article/details/89457927
